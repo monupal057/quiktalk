@@ -8,7 +8,7 @@ export default defineConfig({
 		port: 3000,
 		proxy: {
 			"/api": {
-				target: "https://quiktalk-4.onrender.com",
+				target: "https://quiktalkvibess.onrender.com",
 				// target: "http://localhost:8080",
 			},
 		},
