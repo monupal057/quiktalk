@@ -9,6 +9,7 @@ export default defineConfig({
 		proxy: {
 			"/api": {
 				target: "https://quiktalk-4.onrender.com",
+				// target: "http://localhost:8080",
 			},
 		},
 	},
